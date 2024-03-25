@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        height: auto; 
+        padding: 20px;
+      }
+    
+      .cabecalho .menu {
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      .cabecalho .menu li a {
+        padding: 10px; 
+        font-size: 14px; 
+      }
+
+      #comprar-botao {
+        padding: 10px 20px;
+        font-size: 24px; 
+      }
+
+       .preco {
+    position: static; 
+    text-align: center; 
+    margin-top: 20px; 
+  }
+
+  #titulo-da-venda,
+  #preco-do-oculos {
+    font-size: 20px; 
+  }
+
+  .imagem-de-selecao {
+    height: 60px; 
+    right: 0; 
+    top: 250px; 
+  }
+
+  .selecao {
+    font-size: 12px; 
+    right: 0; 
+    top: 350px; 
+  }
+
+  #adicionarAoCarrinho {
+    font-size: 24px; 
+    top: -120px; 
+    right: 0; 
+  }
+}
